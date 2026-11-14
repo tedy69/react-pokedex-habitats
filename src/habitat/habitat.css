@@ -1,0 +1,40 @@
+.habitat-layers,
+.habitat-plate,
+.habitat-webgl {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.habitat-layers {
+  background: #d2d2a9;
+}
+.habitat-layers[data-habitat='volcano'] {
+  background: #b2a394;
+}
+.habitat-layers[data-habitat='pool'] {
+  background: #adc5b6;
+}
+.habitat-layers[data-habitat='grassland'] {
+  background: #d7c99d;
+}
+.habitat-plate {
+  background-size: cover;
+  background-position: center;
+}
+.habitat-enter {
+  animation: habitat-ink-in 300ms ease both;
+}
+@keyframes habitat-ink-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .habitat-enter {
+    animation: none;
+  }
+}
