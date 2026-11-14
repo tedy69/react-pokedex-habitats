@@ -45,3 +45,7 @@ Deploy `dist/` to a static host. Individual records use hash URLs so they can be
 ## Credits
 
 Species records come from [PokéAPI](https://pokeapi.co/). Pokémon names, characters, sprites, and official artwork belong to their respective rights holders. The image source is the [PokéAPI sprites collection](https://github.com/PokeAPI/sprites). Pokédex Habitats is an unofficial fan project.
+
+## License
+
+The original app code is available under the [MIT License](LICENSE). Pokémon artwork, sprites, species text, trademarks, and other third-party materials retain their respective rights and license terms.
